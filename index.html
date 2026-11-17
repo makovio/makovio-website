@@ -38,7 +38,7 @@
           <div class="product-label"><img src="assets/homebar-icon.png" width="52" height="52" alt="HomeBar App-Symbol"><span>HomeBar <small>von Makovio Labs</small></span></div>
           <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Home Assistant. Direkt am Mac.</p>
           <h1 id="hero-title">Dein Zuhause.<br><em>Ein Klick entfernt.</em></h1>
-          <p class="lead">HomeBar bringt dein vorhandenes Home Assistant direkt in die Menüleiste. Sieh, was zu Hause los ist, steuere Licht und öffne deine wichtigsten Räume, ohne den Browser aufzurufen.</p>
+          <p class="lead">HomeBar sitzt als kleines Haus-Symbol oben in der Mac-Menüleiste. Ein Klick öffnet direkt darunter ein kompaktes Popup: Hausstatus sehen, Licht steuern und Räume öffnen, ohne den Browser aufzurufen.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#beta">Beta-Test anfragen <span aria-hidden="true">↗</span></a>
             <a class="button button-secondary" href="#warum">Mehr entdecken <span aria-hidden="true">↓</span></a>
@@ -49,8 +49,22 @@
           <div class="visual-glow" aria-hidden="true"></div>
           <span class="hero-orbit orbit-one" aria-hidden="true"></span>
           <span class="hero-orbit orbit-two" aria-hidden="true"></span>
-          <img class="hero-shot" src="assets/homebar-overview.png" width="780" height="1220" alt="HomeBar Demo: Menüleistenfenster mit Hausstatus und Räumen" decoding="async">
-          <span class="shot-note"><span class="shot-note-dot" aria-hidden="true"></span> App-Vorschau mit Beispieldaten</span>
+          <div class="menu-demo">
+            <div class="menu-demo-bar">
+              <span class="menu-demo-title">macOS Menüleiste</span>
+              <span class="menu-demo-hint">Haus-Symbol anklicken <span aria-hidden="true">→</span></span>
+              <button class="menu-demo-trigger" type="button" aria-label="HomeBar-Popup in dieser Vorschau öffnen oder schließen" aria-controls="homebar-popup" aria-expanded="true" title="HomeBar-Vorschau öffnen oder schließen">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+              </button>
+            </div>
+            <div class="popup-stage">
+              <div class="popup-prompt" aria-hidden="true"><span aria-hidden="true">⌂</span><strong>Ein Klick auf das Haus.</strong><small>Das HomeBar-Popup erscheint direkt darunter.</small></div>
+              <div class="popup-frame" id="homebar-popup">
+                <img class="hero-shot" src="assets/homebar-overview.png" width="780" height="1220" alt="HomeBar Demo: kompaktes Popup direkt unter dem Symbol in der Mac-Menüleiste" decoding="async">
+              </div>
+            </div>
+            <p class="shot-note"><span class="shot-note-dot" aria-hidden="true"></span> Menüleiste → kleines Popup · Vorschau mit Beispieldaten</p>
+          </div>
         </div>
         </div>
       </section>
@@ -73,6 +87,21 @@
           <div class="flow-node"><span class="flow-symbol" aria-hidden="true">⌂</span><span><strong>Home Assistant</strong><small>Deine Geräte und Zustände</small></span></div>
           <span class="flow-link" aria-hidden="true"><span></span>→</span>
           <div class="flow-node flow-node-accent"><img src="assets/homebar-icon.png" width="42" height="42" alt=""><span><strong>HomeBar</strong><small>Dein schneller Zugriff am Mac</small></span></div>
+        </div>
+      </section>
+
+      <section class="story-section" aria-labelledby="story-title">
+        <div class="wrap">
+          <div class="story-intro reveal">
+            <p class="eyebrow">Ein Moment mit HomeBar</p>
+            <h2 id="story-title">Vom Gedanken zur Aktion.<br><em>Ohne Umweg.</em></h2>
+            <p>Du sitzt am Mac und fragst dich, ob im Wohnzimmer noch Licht brennt. Das Haus-Symbol wartet oben in der Menüleiste. Ein Klick zeigt dir im kleinen Popup, was gerade wichtig ist.</p>
+          </div>
+          <div class="story-grid">
+            <article class="story-card reveal"><span class="story-index">01 / Blick</span><span class="story-glyph" aria-hidden="true">⌂</span><h3>Das Zuhause sehen</h3><p>Das Popup bündelt Hausstatus, auffällige Räume und Favoriten. So beginnt die kurze Kontrolle dort, wo du ohnehin arbeitest.</p></article>
+            <article class="story-card reveal"><span class="story-index">02 / Aktion</span><span class="story-glyph" aria-hidden="true">✦</span><h3>Direkt handeln</h3><p>Öffne einen Raum, schalte oder dimme eine unterstützte Leuchte. Szenen und Skripte aus Home Assistant erreichst du über Favoriten oder die Suche.</p></article>
+            <article class="story-card reveal"><span class="story-index">03 / Aufbruch</span><span class="story-glyph" aria-hidden="true">↗</span><h3>Mit gutem Überblick gehen</h3><p>„Ich gehe“ zeigt eingeschaltete Lichter sowie offene oder unbekannte Fensterzustände. Du entscheidest, was noch zu tun ist.</p></article>
+          </div>
         </div>
       </section>
 
@@ -100,6 +129,27 @@
             <figure class="shot-card reveal"><a class="shot-frame" href="assets/homebar-leaving.png" aria-label="Demo-Screenshot: Ich gehe in voller Größe öffnen"><img src="assets/homebar-leaving.png" width="1940" height="1440" alt="HomeBar Demo: Ansicht Ich gehe mit eingeschalteten Lichtern und offenem Fenster" decoding="async"></a><figcaption><strong>Vor dem Gehen</strong><span>Lichter und Fenster noch einmal prüfen.</span></figcaption></figure>
             <figure class="shot-card reveal"><a class="shot-frame" href="assets/homebar-search.png" aria-label="Demo-Screenshot: Suche in voller Größe öffnen"><img src="assets/homebar-search.png" width="1040" height="840" alt="HomeBar Demo: Suche nach Räumen, Geräten, Szenen und Skripten" decoding="async"></a><figcaption><strong>Schnell finden</strong><span>Räume, Geräte, Szenen und Skripte suchen.</span></figcaption></figure>
           </div>
+        </div>
+      </section>
+
+      <section class="details-section wrap" aria-labelledby="details-title">
+        <div class="details-heading reveal">
+          <p class="eyebrow">Die Details</p>
+          <h2 id="details-title">Kompakt im Fenster.<br><em>Durchdacht im Alltag.</em></h2>
+          <p>HomeBar nutzt deine vorhandene Home-Assistant-Installation und ordnet die täglichen Wege für den Mac neu.</p>
+        </div>
+        <div class="details-grid">
+          <article class="detail-row reveal"><span class="detail-mark" aria-hidden="true">⌘</span><div><h3>Suche mit Tastatur</h3><p>Öffne die Suche mit ⌘K oder einem wählbaren globalen Kürzel. Finde Räume, Geräte, Szenen und Skripte.</p></div></article>
+          <article class="detail-row reveal"><span class="detail-mark" aria-hidden="true">▦</span><div><h3>Deine eigene Ordnung</h3><p>Lege Favoriten und eigene Gruppen an, damit häufig genutzte Geräte und Aktionen schnell erreichbar bleiben.</p></div></article>
+          <article class="detail-row reveal"><span class="detail-mark" aria-hidden="true">◉</span><div><h3>Zustände statt Vermutungen</h3><p>HomeBar zeigt die Zustände, die Home Assistant meldet. Bei der „Ich gehe“-Kontrolle werden unbekannte Fensterzustände ausdrücklich genannt.</p></div></article>
+          <article class="detail-row reveal"><span class="detail-mark" aria-hidden="true">◇</span><div><h3>Ohne zusätzliches Konto</h3><p>Die Verbindung nutzt deine bestehende Home-Assistant-Adresse. Das Zugangstoken liegt im macOS-Schlüsselbund; HomeBar braucht keine eigene Cloud.</p></div></article>
+        </div>
+      </section>
+
+      <section class="requirements-section" aria-labelledby="requirements-title">
+        <div class="wrap requirements-inner reveal">
+          <div><p class="eyebrow">Gut zu wissen</p><h2 id="requirements-title">Was du für HomeBar brauchst.</h2><p>Für einen Test benötigst du einen Mac mit macOS 26 oder neuer und eine erreichbare Home-Assistant-Installation. Die Verbindung richtest du in der App mit deiner Home-Assistant-Adresse und einem Zugangstoken ein.</p></div>
+          <div class="requirements-list"><span><b>01</b> macOS 26 oder neuer</span><span><b>02</b> Bestehendes Home Assistant</span><span><b>03</b> Zugangstoken für die Verbindung</span></div>
         </div>
       </section>
 
