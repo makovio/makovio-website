@@ -2,6 +2,17 @@
   const root = document.documentElement;
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const progress = document.querySelector('.scroll-progress');
+  const menuTrigger = document.querySelector('.menu-demo-trigger');
+  const menuPopup = document.querySelector('#homebar-popup');
+  const menuPrompt = document.querySelector('.popup-prompt');
+
+  menuTrigger.addEventListener('click', () => {
+    const isOpen = menuTrigger.getAttribute('aria-expanded') === 'true';
+    menuTrigger.setAttribute('aria-expanded', String(!isOpen));
+    menuPopup.classList.toggle('is-closed', isOpen);
+    menuPopup.setAttribute('aria-hidden', String(isOpen));
+    menuPrompt.setAttribute('aria-hidden', String(!isOpen));
+  });
 
   if (!reduceMotion && 'IntersectionObserver' in window) {
     root.classList.add('has-motion');
