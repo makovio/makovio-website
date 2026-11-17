@@ -1,5 +1,7 @@
 # HomeBar · Makovio Labs
 
+**Website:** [HomeBar ansehen](https://makovio.github.io/makovio-website/)
+
 **HomeBar** ist eine kostenlose macOS-Menüleisten-App für ein vorhandenes Home Assistant. Die erste Version befindet sich in einer **geschlossenen Beta**. Eine offene Beta oder ein öffentlicher Download sind derzeit nicht verfügbar.
 
 Mit HomeBar kannst du den Hausstatus prüfen, Räume öffnen, unterstützte Leuchten steuern und dimmen, Favoriten nutzen sowie Räume, Geräte, Szenen und Skripte durchsuchen. Die Ansicht „Ich gehe“ zeigt eingeschaltete Lichter und offene oder unbekannte Fensterzustände.
