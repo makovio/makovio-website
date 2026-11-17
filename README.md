@@ -1,17 +1,13 @@
-# Makovio Labs
+# HomeBar · Makovio Labs
 
-Wir entwickeln kostenlose Apps für macOS und Android. Unser aktueller Schwerpunkt ist **HomeBar**.
+**HomeBar** ist eine kostenlose macOS-Menüleisten-App für ein vorhandenes Home Assistant. Die erste Version befindet sich in einer **geschlossenen Beta**. Eine offene Beta oder ein öffentlicher Download sind derzeit nicht verfügbar.
 
-## HomeBar
+Mit HomeBar kannst du den Hausstatus prüfen, Räume öffnen, unterstützte Leuchten steuern und dimmen, Favoriten nutzen sowie Räume, Geräte, Szenen und Skripte durchsuchen. Die Ansicht „Ich gehe“ zeigt eingeschaltete Lichter und offene oder unbekannte Fensterzustände.
 
-HomeBar ist unser Projekt im Fokus. Informationen und ein Download folgen, sobald sie verfügbar sind.
+Die App benötigt macOS 26 oder neuer. Sie nutzt deine bestehende Home-Assistant-Installation, braucht kein zusätzliches Konto und speichert das Zugangstoken im macOS-Schlüsselbund.
 
-## Weitere Projekte
+**Du möchtest HomeBar testen?** Schreib an [makoviolabs@gmail.com](mailto:makoviolabs@gmail.com?subject=HomeBar%20Beta-Test). Testzugänge werden persönlich vergeben.
 
-**LightScout** ist für später geplant.
+Die Screenshots in diesem Repository zeigen den Demo-Modus mit Beispieldaten. Dieses Repository enthält die Makovio-Website, nicht den Quellcode der HomeBar-App.
 
-Die Website befindet sich noch im Aufbau. Den Quellcode findest du in diesem Repository.
-
-## Lizenz
-
-Der Website-Code steht unter der [MIT-Lizenz](LICENSE). Der Name „Makovio Labs“ bleibt davon unberührt.
+Der Website-Code steht unter der [MIT-Lizenz](LICENSE). Markenname und App-Symbol bleiben davon unberührt.

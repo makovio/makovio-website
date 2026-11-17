@@ -3,94 +3,90 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#10121d">
-    <meta name="description" content="HomeBar steht bei Makovio Labs im Fokus. Wir entwickeln kostenlose Apps für macOS und Android.">
-    <title>Makovio Labs — HomeBar im Fokus</title>
+    <meta name="theme-color" content="#101116">
+    <meta name="description" content="HomeBar bringt dein Home Assistant in die macOS-Menüleiste. Version 1 befindet sich in einer geschlossenen Beta. Testanfragen sind willkommen.">
+    <title>HomeBar — Home Assistant in deiner Menüleiste | Makovio Labs</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
     <header class="site-header wrap">
-      <a class="brand" href="#start" aria-label="Makovio Labs, zur Startseite">
-        <span class="brand-mark" aria-hidden="true">M</span>
-        <span>Makovio <strong>Labs</strong></span>
-      </a>
+      <a class="brand" href="#start" aria-label="Makovio Labs, zur Startseite"><span class="brand-mark" aria-hidden="true">M</span><span>Makovio <strong>Labs</strong></span></a>
       <nav aria-label="Hauptnavigation">
-        <a href="#projekte">Projekte</a>
-        <a href="#ueber-uns">Über uns</a>
-        <a href="https://github.com/makovio">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="#funktionen">Funktionen</a>
+        <a href="#einblicke">Einblicke</a>
+        <a href="#beta">Beta testen</a>
       </nav>
     </header>
 
     <main id="inhalt">
       <section class="hero wrap" id="start" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="signal" aria-hidden="true"></span> Makovio Labs · Aktueller Fokus</p>
-          <h1 id="hero-title">HomeBar <em>im Fokus.</em></h1>
-          <p class="lead">HomeBar ist unser aktuelles Projekt. Makovio Labs entwickelt kostenlose Apps für macOS und Android. Mehr über HomeBar erfährst du hier, sobald es Neuigkeiten gibt.</p>
+          <div class="product-label"><img src="assets/homebar-icon.png" width="52" height="52" alt="HomeBar App-Symbol"><span>HomeBar <small>von Makovio Labs</small></span></div>
+          <p class="eyebrow">Kostenlose App für macOS 26 und neuer</p>
+          <h1 id="hero-title">Dein Zuhause.<br><em>Ein Klick entfernt.</em></h1>
+          <p class="lead">HomeBar bringt dein vorhandenes Home Assistant direkt in die Menüleiste. Sieh, was zu Hause los ist, steuere Licht und öffne deine wichtigsten Räume, ohne den Browser aufzurufen.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projekte">HomeBar ansehen <span aria-hidden="true">↗</span></a>
-            <a class="button button-secondary" href="https://github.com/makovio/makovio-website">Auf GitHub ansehen</a>
+            <a class="button button-primary" href="#beta">Beta-Test anfragen <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#einblicke">App ansehen</a>
           </div>
+          <p class="hero-note"><span class="status-dot" aria-hidden="true"></span> Version 1 in geschlossener Beta · Noch keine offene Beta</p>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="art-glow"></div>
-          <div class="art-window">
-            <div class="window-top"><span></span><span></span><span></span></div>
-            <div class="window-content">
-              <div class="window-symbol">M<span>.</span></div>
-              <div class="window-line wide"></div>
-              <div class="window-line"></div>
-              <div class="window-tiles"><i></i><i></i><i></i></div>
-            </div>
-          </div>
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
+        <div class="hero-visual">
+          <div class="visual-glow" aria-hidden="true"></div>
+          <img class="hero-shot" src="assets/homebar-overview.png" width="780" height="1220" alt="HomeBar Demo: Menüleistenfenster mit Hausstatus und Räumen" decoding="async">
+          <span class="shot-note">App-Vorschau mit Beispieldaten</span>
         </div>
       </section>
 
-      <section class="section wrap" id="projekte" aria-labelledby="projects-title">
+      <section class="facts-band" aria-label="HomeBar auf einen Blick">
+        <div class="wrap facts-grid">
+          <div><strong>macOS 26+</strong><span>Native Menüleisten-App</span></div>
+          <div><strong>Home Assistant</strong><span>Für deine bestehende Installation</span></div>
+          <div><strong>Keine eigene Cloud</strong><span>Token im macOS-Schlüsselbund</span></div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="funktionen" aria-labelledby="features-title">
         <div class="section-heading">
-          <div>
-            <p class="eyebrow">Unsere Projekte</p>
-            <h2 id="projects-title">HomeBar und mehr</h2>
-          </div>
-          <p>HomeBar steht im Mittelpunkt. Weitere Ideen folgen mit der Zeit.</p>
+          <div><p class="eyebrow">Was HomeBar kann</p><h2 id="features-title">Dein Zuhause im Blick.</h2></div>
+          <p>Die wichtigsten Informationen und Aktionen sind dort, wo du sie schnell erreichst: in der Menüleiste.</p>
         </div>
-        <div class="project-grid">
-          <article class="project-card homebar-card">
-            <div class="project-icon homebar" aria-hidden="true"><span>H</span></div>
-            <div class="project-meta"><span class="badge">Im Fokus</span><span>In Vorbereitung</span></div>
-            <h3>HomeBar</h3>
-            <p>Unser aktuelles Projekt. Mehr Details und ein Download folgen, sobald HomeBar bereit ist.</p>
-          </article>
-          <article class="project-card">
-            <div class="project-icon lightscout" aria-hidden="true"><span>L</span></div>
-            <div class="project-meta"><span class="badge">Später</span><span>In Planung</span></div>
-            <h3>LightScout</h3>
-            <p>Eine weitere Idee von Makovio Labs, die wir später vorstellen möchten.</p>
-          </article>
+        <div class="features-grid">
+          <article class="feature-card"><span class="feature-number">01</span><h3>Hausstatus</h3><p>Sieh auf einen Blick beleuchtete Räume, offene Fenster und aktive Geräte.</p></article>
+          <article class="feature-card"><span class="feature-number">02</span><h3>Räume &amp; Licht</h3><p>Öffne Raumdetails und schalte oder dimme unterstützte Leuchten direkt in HomeBar.</p></article>
+          <article class="feature-card"><span class="feature-number">03</span><h3>Suche &amp; Favoriten</h3><p>Finde Räume, Geräte, Szenen und Skripte. Lege häufig genutzte Aktionen als Favoriten ab.</p></article>
+          <article class="feature-card"><span class="feature-number">04</span><h3>„Ich gehe“</h3><p>Prüfe vor dem Verlassen eingeschaltete Lichter und offene oder unbekannte Fensterzustände.</p></article>
         </div>
       </section>
 
-      <section class="about-band" id="ueber-uns" aria-labelledby="about-title">
-        <div class="wrap about-grid">
-          <div>
-            <p class="eyebrow">Über Makovio Labs</p>
-            <h2 id="about-title">HomeBar zuerst.<br><em>Weitere Ideen folgen.</em></h2>
+      <section class="gallery-section" id="einblicke" aria-labelledby="gallery-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div><p class="eyebrow">Einblicke in die App</p><h2 id="gallery-title">So sieht HomeBar aus.</h2></div>
+            <p>Diese Ansichten stammen direkt aus dem Demo-Modus der App und enthalten ausschließlich Beispieldaten.</p>
           </div>
-          <div>
-            <p>Makovio Labs entwickelt kostenlose Apps für macOS und Android. Aktuell konzentrieren wir uns auf HomeBar. LightScout ist eine weitere Idee für später.</p>
-            <a class="text-link" href="https://github.com/makovio">Fortschritt auf GitHub verfolgen <span aria-hidden="true">↗</span></a>
+          <div class="gallery-grid">
+            <figure class="shot-card"><a class="shot-frame" href="assets/homebar-room.png" aria-label="Demo-Screenshot: Raumdetails in voller Größe öffnen"><img src="assets/homebar-room.png" width="1940" height="1440" alt="HomeBar Demo: Raumdetails mit Leuchten, Ventilator, Fenstern und Szenen" decoding="async"></a><figcaption><strong>Räume im Detail</strong><span>Geräte und Zustände nach Typ geordnet.</span></figcaption></figure>
+            <figure class="shot-card"><a class="shot-frame" href="assets/homebar-leaving.png" aria-label="Demo-Screenshot: Ich gehe in voller Größe öffnen"><img src="assets/homebar-leaving.png" width="1940" height="1440" alt="HomeBar Demo: Ansicht Ich gehe mit eingeschalteten Lichtern und offenem Fenster" decoding="async"></a><figcaption><strong>Vor dem Gehen</strong><span>Lichter und Fenster noch einmal prüfen.</span></figcaption></figure>
+            <figure class="shot-card"><a class="shot-frame" href="assets/homebar-search.png" aria-label="Demo-Screenshot: Suche in voller Größe öffnen"><img src="assets/homebar-search.png" width="1040" height="840" alt="HomeBar Demo: Suche nach Räumen, Geräten, Szenen und Skripten" decoding="async"></a><figcaption><strong>Schnell finden</strong><span>Räume, Geräte, Szenen und Skripte suchen.</span></figcaption></figure>
           </div>
+        </div>
+      </section>
+
+      <section class="beta-section wrap" id="beta" aria-labelledby="beta-title">
+        <div class="beta-card">
+          <div><p class="eyebrow">Geschlossene Beta</p><h2 id="beta-title">HomeBar testen?</h2><p>Version 1 ist in der Beta-Phase. Wenn du HomeBar ausprobieren möchtest, schreib uns gern. Wir vergeben Testzugänge persönlich; eine offene Beta gibt es noch nicht.</p></div>
+          <div class="beta-action"><a class="button button-primary" href="mailto:makoviolabs@gmail.com?subject=HomeBar%20Beta-Test">Testanfrage schreiben <span aria-hidden="true">↗</span></a><span>makoviolabs@gmail.com</span></div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer wrap">
       <span class="brand"><span class="brand-mark" aria-hidden="true">M</span><span>Makovio <strong>Labs</strong></span></span>
-      <p>Kostenlose Apps für macOS und Android · <a href="https://github.com/makovio">GitHub</a></p>
+      <p>HomeBar · Kostenlose macOS-App für Home Assistant</p>
+      <a href="https://github.com/makovio">GitHub <span aria-hidden="true">↗</span></a>
     </footer>
   </body>
 </html>
