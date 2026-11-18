@@ -1,15 +1,18 @@
-# HomeBar · Makovio Labs
+# HomeBar 1.2 · Makovio Labs
 
-**Website:** [HomeBar ansehen](https://makovio.github.io/makovio-website/)
+[HomeBar-Website](https://makovio.github.io/makovio-website/)
 
-**HomeBar** ist eine kostenlose macOS-Menüleisten-App für ein vorhandenes Home Assistant. Die erste Version befindet sich in einer **geschlossenen Beta**. Eine offene Beta oder ein öffentlicher Download sind derzeit nicht verfügbar.
+HomeBar ist eine kostenlose macOS-Menüleisten-App für eine vorhandene Home-Assistant-Installation. Version **1.2** befindet sich in einer geschlossenen Beta. Testzugänge werden persönlich vergeben.
 
-Mit HomeBar kannst du den Hausstatus prüfen, Räume öffnen, unterstützte Leuchten steuern und dimmen, Favoriten nutzen sowie Räume, Geräte, Szenen und Skripte durchsuchen. Die Ansicht „Ich gehe“ zeigt eingeschaltete Lichter und offene oder unbekannte Fensterzustände.
+## Neu in 1.2
 
-Die App benötigt macOS 26 oder neuer. Sie nutzt deine bestehende Home-Assistant-Installation, braucht kein zusätzliches Konto und speichert das Zugangstoken im macOS-Schlüsselbund.
+- Das Menüleistenfenster ist 336 Punkte breit. Es passt seine Höhe dem Inhalt an und scrollt bei längeren Raumlisten.
+- Die App übernimmt standardmäßig das Erscheinungsbild und die Systemfarben von macOS. Unter **Einstellungen → Darstellung** stehen auch **Hell** und **Dunkel** zur Auswahl.
+- Suche und Hauskontrolle sind in der Kopfzeile erreichbar. Übersicht, Einstellungen und weitere Befehle stehen am unteren Rand.
+- Die Produktseite zeigt die aktuelle App in beiden Modi mit Beispieldaten.
 
-**Du möchtest HomeBar testen?** Schreib an [makoviolabs@gmail.com](mailto:makoviolabs@gmail.com?subject=HomeBar%20Beta-Test). Testzugänge werden persönlich vergeben.
+HomeBar benötigt macOS 26 oder neuer. Das Home-Assistant-Zugriffstoken liegt im macOS-Schlüsselbund.
 
-Die Screenshots in diesem Repository zeigen den Demo-Modus mit Beispieldaten. Dieses Repository enthält die Makovio-Website, nicht den Quellcode der HomeBar-App.
+[Geschlossenen Beta-Test anfragen](mailto:makoviolabs@gmail.com?subject=HomeBar%201.2%20Beta-Test)
 
-Der Website-Code steht unter der [MIT-Lizenz](LICENSE). Markenname und App-Symbol bleiben davon unberührt.
+Dieses Repository enthält die Produktwebsite. Der Website-Code steht unter der [MIT-Lizenz](LICENSE).
