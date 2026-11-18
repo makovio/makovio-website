@@ -1,6 +1,6 @@
 # HomeBar 1.2 · Makovio Labs
 
-[HomeBar-Website](https://makovio.github.io/makovio-website/)
+[HomeBar-Website](https://makovio.github.io/makovio-website/) · [Entwicklungsstand und Versionsverlauf](https://makovio.github.io/makovio-website/#stand)
 
 HomeBar ist eine kostenlose macOS-Menüleisten-App für eine vorhandene Home-Assistant-Installation. Version **1.2** befindet sich in einer geschlossenen Beta. Testzugänge werden persönlich vergeben.
 
