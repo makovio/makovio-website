@@ -2,17 +2,20 @@
 
 [HomeBar-Website](https://makovio.github.io/makovio-website/) · [Entwicklungsstand und Versionsverlauf](https://makovio.github.io/makovio-website/#stand)
 
-HomeBar ist eine kostenlose macOS-Menüleisten-App für eine vorhandene Home-Assistant-Installation. Version **1.2** befindet sich in einer geschlossenen Beta. Testzugänge werden persönlich vergeben.
+HomeBar ist eine kostenlose macOS-Menüleisten-App für eine vorhandene Home-Assistant-Installation.
+
+**Version 1.2 · Geschlossene Beta**
 
 ## Neu in 1.2
 
-- Das Menüleistenfenster ist 336 Punkte breit. Es passt seine Höhe dem Inhalt an und scrollt bei längeren Raumlisten.
-- Die App übernimmt standardmäßig das Erscheinungsbild und die Systemfarben von macOS. Unter **Einstellungen → Darstellung** stehen auch **Hell** und **Dunkel** zur Auswahl.
-- Suche und Hauskontrolle sind in der Kopfzeile erreichbar. Übersicht, Einstellungen und weitere Befehle stehen am unteren Rand.
-- Die Produktseite zeigt die aktuelle App in beiden Modi mit Beispieldaten.
+Kompakteres Menü für macOS
+
+- Das 336 Punkte breite Menüleistenfenster passt seine Höhe an den Inhalt an und scrollt bei langen Raumlisten.
+- Systemfarben von macOS und die Auswahl zwischen System, Hell und Dunkel.
+- Kompaktere Übersicht, Suche und Gerätesteuerung.
 
 HomeBar benötigt macOS 26 oder neuer. Das Home-Assistant-Zugriffstoken liegt im macOS-Schlüsselbund.
 
-[Geschlossenen Beta-Test anfragen](mailto:makoviolabs@gmail.com?subject=HomeBar%201.2%20Beta-Test)
+[Beta-Test anfragen](https://makovio.github.io/makovio-website/#beta)
 
 Dieses Repository enthält die Produktwebsite. Der Website-Code steht unter der [MIT-Lizenz](LICENSE).
